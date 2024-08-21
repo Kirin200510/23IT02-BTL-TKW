@@ -1,0 +1,116 @@
+body {
+    background-color: lightblue;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+}
+/* login */
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login {
+    max-width: 400px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    flex-grow: 1;
+    padding: 30px 30px 40px 30px;
+    border: 4px solid blue;
+}
+.form-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group {
+    border-bottom: 1px solid white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.form-input {
+    background: transparent;
+    border:0;
+    outline: 0;
+    width: 100%;
+    color:white;
+}
+.form-input::placeholder {
+    color: rgba(244, 244, 247, 0.463);
+}
+.loginResult {
+    color: red;
+    margin-top: 10px;
+}
+
+.form-submit {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    padding: 6px 10px;
+    margin-top: 30px;
+}
+.form-submit:hover {
+    background-color: rgb(33, 33, 206);
+}
+/* signup */
+#signup {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-signup {
+    max-width: 400px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    flex-grow: 1;
+    padding: 30px 30px 40px 30px;
+    border: 4px solid blue;
+}
+.signup-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.signup-group {
+    border-bottom: 1px solid white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.signup-input {
+    background: transparent;
+    border:0;
+    outline: 0;
+    width: 100%;
+    color:white;
+}
+.signup-input::placeholder {
+    color: rgba(244, 244, 247, 0.463);
+}
+.changepage {
+    right: 0;
+    text-align: right;
+    display: block;
+}
+.change {
+    color: white;
+}
+.signupResult {
+    color: red;
+    margin-top: 10px;
+}
+.signup-submit {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    padding: 6px 10px;
+    margin-top: 30px;
+}
+.signup-submit:hover {
+    background-color: rgb(33, 33, 206);
+}
